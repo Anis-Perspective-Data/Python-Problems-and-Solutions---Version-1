@@ -1,0 +1,37 @@
+Two-fer or 2-fer is short for two for one. One for you and one for me.
+
+Given a name, return a string with the message:
+
+One for X, one for me.
+
+Where X is the given name.
+
+However, if the name is missing, return the string:
+
+One for you, one for me.
+
+Here are some examples:
+
+Name	String to return
+Alice	One for Alice, one for me.
+Bob	One for Bob, one for me.
+	One for you, one for me.
+Zaphod	One for Zaphod, one for me.
+
+
+Exception messages:
+
+Sometimes it is necessary to raise an exception. When you do this, you should include a meaningful error message to indicate what the source of the error is. This makes your code more readable and helps significantly with debugging. Not every exercise will require you to raise an exception, but for those that do, the tests will only pass if you include a message.
+
+To raise a message with an exception, just write it as an argument to the exception type. For example, instead of raise Exception, you should write:
+
+> raise Exception("Meaningful message")
+
+
+Test Suggestions:
+
+> Check if user passed any numeric as an argument. If so, raise an error
+> If any integer argument passed as string value, test it in code and raise an error.
+> Only str with alphabets allowed; To do this, you may have to use regular expressions. as of now you can leave this point and check only if user has not passed any numeric argument.
+> Appreciate if any do any extra checks and let us know.
+
